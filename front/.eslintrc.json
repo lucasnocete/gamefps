@@ -1,0 +1,23 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "parserOptions": {
+        "parser": "babel-eslint"
+    },
+    "extends": [
+        "plugin:vue/recommended"
+    ],
+    "rules": {
+        "vue/html-indent": [
+            2,
+            4
+        ],
+        "indent": ["error", 4]
+    },
+    "plugins": [
+        "vue"
+    ]
+}
